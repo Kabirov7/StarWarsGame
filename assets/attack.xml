@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<States>
+    <MENU>
+        <TEXTURES>
+            <texture filename="assets/clouds2.png" ID="background"/>
+            <texture filename="assets/button.png" ID="playbutton"/>
+            <texture filename="assets/exit.png" ID="exitbutton"/>
+        </TEXTURES>
+        
+        <OBJECTS>
+            <object type="AnimatedGraphic" textureID="background" numFrames="1" animSpeed="1"/>
+            <object type="MenuButton" x="100" y="100" width="400" height="100" textureID="playbutton" numFrames="0" callbackID="1"/>
+            <object type="MenuButton" x="100" y="300" width="400" height="100" textureID="exitbutton" numFrames="0" callbackID="2"/>
+        </OBJECTS>
+    </MENU>
+    
+    <PAUSE>
+        <TEXTURES>
+            <texture filename="assets/clouds2.png" ID="background"/>
+            <texture filename="assets/resume.png" ID="resumebutton"/>
+            <texture filename="assets/main.png" ID="mainbutton"/>
+        </TEXTURES>
+        
+        <OBJECTS>
+            <object type="AnimatedGraphic" textureID="background" numFrames="1" animSpeed="1"/>
+            <object type="MenuButton" x="100" y="180" width="400" height="100" textureID="mainbutton" numFrames="0" callbackID="1"/>
+            <object type="MenuButton" x="100" y="300" width="400" height="100" textureID="resumebutton" numFrames="0" callbackID="2"/>
+        </OBJECTS>
+    </PAUSE>
+
+    
+    <GAMEOVER>
+        <TEXTURES>
+            <texture filename="assets/clouds2.png" ID="background"/>
+            <texture filename="assets/gameover.png" ID="gameovertext"/>
+            <texture filename="assets/main.png" ID="mainbutton"/>
+            <texture filename="assets/restart.png" ID="restartbutton"/>
+        </TEXTURES>
+        
+        <OBJECTS>
+            <object type="AnimatedGraphic" textureID="background" numFrames="1" animSpeed="1"/>
+            <object type="AnimatedGraphic" x="230" y="50" width="130" height="134" textureID="gameovertext" numFrames="2" animSpeed="2"/>
+            <object type="MenuButton" x="100" y="180" width="400" height="100" textureID="mainbutton" numFrames="0" callbackID="1"/>
+            <object type="MenuButton" x="100" y="300" width="400" height="100" textureID="restartbutton" numFrames="0" callbackID="2"/>
+        </OBJECTS>
+    </GAMEOVER>
+</States>
