@@ -32,4 +32,4 @@ private:
     // храни в себе состояния
     std::vector<GameState*> m_gameStates;
 };
-#endif //MYCHESSSDL2_GAMESTATEMACHINE_H
+#endif
