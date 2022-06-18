@@ -4,7 +4,7 @@
 #include "SoundManager.h"
 #include "InputHandler.h"
 #include "../States/MenuState.h"
-#include "../GameObjects/MenuButton.h"
+#include "MenuButton.h"
 #include "../States/MainMenuState.h"
 #include "../GameObjects/Enemy.h"
 #include "AnimatedGraphic.h"

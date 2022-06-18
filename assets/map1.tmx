@@ -36,7 +36,7 @@
    <property name="collidable" value=""/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzt2UEOQDAQheFuHEI5tUUdgIOqxGLahapMafm/5IUhTbp4CcKYc92Rq9dr40RKWaPc5cwz+60BvUIJ9Aol0CuU0HqvdvSqPl/oFdpBrwAAf8DzLrS//89vb+ID6FWIb0sd9CpEr3TQqxC90qHdq0XEiGPuOk2TSEpur/70L1nqfazPEJ2P0WwT95mZ5bwBCqYrsw==
+   eJzt2UEOQDAQheFuHEK5gdtacAAOisRiOgtFplT9X/LCkCZdvATh3LFqz9nruRlEUplV7hrcM/vNAb1CCvQKKdArpPD1Xm3oVX5K6BW+g14BAP6A511oe/8f395EAehViG9LG3d71amUgl7ZoFchemXDolfSJOLEMUavs9SLxFzt1Z/+JUv1Gr+mUeetmn3kPjOznBfBPi2M
   </data>
  </layer>
  <objectgroup color="#00ff00" id="3" name="Object Layer 1">

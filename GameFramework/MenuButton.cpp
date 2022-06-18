@@ -1,5 +1,5 @@
 #include "MenuButton.h"
-#include "../GameFramework/InputHandler.h"
+#include "InputHandler.h"
 
 MenuButton::MenuButton() : ShooterObject(), m_callback(0), m_bReleased(true){}
 

@@ -1,7 +1,7 @@
 #include "MainMenuState.h"
 #include <iostream>
 #include "../GameFramework/Game.h"
-#include "../GameObjects/MenuButton.h"
+#include "../GameFramework/MenuButton.h"
 #include "PlayState.h"
 #include "../GameFramework/StateParser.h"
 #include "../GameFramework/InputHandler.h"

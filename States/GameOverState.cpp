@@ -3,7 +3,7 @@
 #include "../GameFramework/Game.h"
 #include "MenuState.h"
 #include "PlayState.h"
-#include "../GameObjects/MenuButton.h"
+#include "../GameFramework/MenuButton.h"
 #include "../GameFramework/StateParser.h"
 #include "MainMenuState.h"
 

@@ -1,6 +1,6 @@
 #include "PauseState.h"
 #include "MenuState.h"
-#include "../GameObjects/MenuButton.h"
+#include "../GameFramework/MenuButton.h"
 #include "../GameFramework/LoaderParams.h"
 #include "MainMenuState.h"
 #include "../GameFramework/StateParser.h"
