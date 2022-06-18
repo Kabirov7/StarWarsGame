@@ -31,7 +31,7 @@ add_executable(${PROJECT_NAME} main.cpp
         GameObjects/Player.cpp GameObjects/Player.h
         GameObjects/Enemy.h
         GameFramework/LoaderParams.h
-        GameObjects/ShooterObject.cpp GameObjects/ShooterObject.h
+        GameFramework/ShooterObject.cpp GameFramework/ShooterObject.h
         GameFramework/MenuButton.cpp GameFramework/MenuButton.h
         GameFramework/AnimatedGraphic.cpp GameFramework/AnimatedGraphic.h
         GameObjects/Bullet.h GameObjects/BulletHandler.cpp

@@ -51,21 +51,21 @@ private:
     InputHandler(const InputHandler&);
     InputHandler& operator=(const InputHandler&);
 
-    // private functions to handle different event types
+    // Приватные методы
 
-    // handle keyboard events
+    // обработка клавиатуры
     void onKeyDown();
     void onKeyUp();
 
-    // handle mouse events
+    // обработка мыши
     void onMouseMove(SDL_Event& event);
     void onMouseButtonDown(SDL_Event& event);
     void onMouseButtonUp(SDL_Event& event);
 
-    // keyboard specific
+    // клавиатура
     const Uint8* m_keystates;
 
-    // mouse specific
+    // мышка
     std::vector<bool> m_mouseButtonStates;
     Vector2D* m_mousePosition;
 

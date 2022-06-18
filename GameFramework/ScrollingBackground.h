@@ -1,6 +1,6 @@
 #ifndef STARWARS_SCROLLINGBACKGROUND_H
 #define STARWARS_SCROLLINGBACKGROUND_H
-#include "../GameObjects/ShooterObject.h"
+#include "ShooterObject.h"
 #include "GameObjectFactory.h"
 
 // класс просто создает эффект движения по игре

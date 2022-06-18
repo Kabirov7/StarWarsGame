@@ -2,7 +2,7 @@
 #define STARWARS_ENEMY_H
 
 
-#include "ShooterObject.h"
+#include "../GameFramework/ShooterObject.h"
 #include "../GameFramework/GameObjectFactory.h"
 
 // Абстрактный класс, от него наследуются все подклассы врагов, такие как glider, турель, боссы

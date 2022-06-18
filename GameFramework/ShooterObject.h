@@ -2,8 +2,8 @@
 #define STARWARS_SHOOTEROBJECT_H
 
 
-#include "../GameFramework/GameObject.h"
-#include "../GameFramework/Vector2D.h"
+#include "GameObject.h"
+#include "Vector2D.h"
 
 class ShooterObject : public GameObject
 {

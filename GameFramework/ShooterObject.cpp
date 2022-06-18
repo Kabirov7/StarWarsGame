@@ -1,6 +1,6 @@
 #include "ShooterObject.h"
-#include "../GameFramework/TextureManager.h"
-#include "../GameFramework/Game.h"
+#include "TextureManager.h"
+#include "Game.h"
 
 ShooterObject::ShooterObject() :    GameObject(),
                                     m_bulletFiringSpeed(0),

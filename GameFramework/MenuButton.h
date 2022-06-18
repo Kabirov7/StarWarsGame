@@ -1,7 +1,7 @@
 #ifndef STARWARS_MENUBUTTON_H
 #define STARWARS_MENUBUTTON_H
 
-#include "../GameObjects/ShooterObject.h"
+#include "ShooterObject.h"
 #include "GameObjectFactory.h"
 
 // С помощью этого класса создаются все кнопки в игре. класс всегда имеет одну функцию которая сробатывает при нажатии

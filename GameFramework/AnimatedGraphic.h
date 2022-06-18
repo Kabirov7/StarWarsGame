@@ -3,7 +3,7 @@
 
 
 #include "LoaderParams.h"
-#include "../GameObjects/ShooterObject.h"
+#include "ShooterObject.h"
 #include "GameObjectFactory.h"
 
 // класс нужен чтобы было удобно рисовать всякие надписи под типу game over при неудачном прохождении игры

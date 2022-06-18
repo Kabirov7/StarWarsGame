@@ -3,7 +3,7 @@
 
 
 #include "../GameFramework/GameObject.h"
-#include "ShooterObject.h"
+#include "../GameFramework/ShooterObject.h"
 #include "../GameFramework/GameObjectFactory.h"
 
 class Player : public ShooterObject

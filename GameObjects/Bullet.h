@@ -3,7 +3,7 @@
 #ifndef STARWARS_BULLET_H
 #define STARWARS_BULLET_H
 
-#include "ShooterObject.h"
+#include "../GameFramework/ShooterObject.h"
 
 class PlayerBullet : public ShooterObject
 {
